@@ -60,4 +60,7 @@ input, textarea{
     .contact_container{
         width:var(--container-width-sm);
     }
+    .contact_options {
+    padding: 1rem;
+}
 }
