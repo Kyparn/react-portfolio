@@ -12,10 +12,10 @@ const Contact = () => {
     e.preventDefault()
 
     emailjs.sendForm(
-      'service_z2chktm',
-      'template_rn7qzfj',
+      'outlook',
+      'template_lj4csfl',
       form.current,
-      'YOUR_USER_ID',
+      'w6PSHVyGDgrN7t3wiye1L',
     )
     e.target.reset()
   }
@@ -37,7 +37,7 @@ const Contact = () => {
           <article className="contact_option">
             <FaFacebookMessenger className="contact_icon" />
             <h4>Messanger</h4>
-            <h5>Simon_a@hotmail.com</h5>
+            <h5>Simon</h5>
             <a href="https://m.me/simon.andersson.1447" target="_black">
               Send a messange
             </a>
