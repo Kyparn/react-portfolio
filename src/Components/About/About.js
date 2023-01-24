@@ -28,11 +28,11 @@ const About = () => {
             </article>
           </div>
           <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s, when an unknown printer took a galley of type
-            and scrambled it to make a type specimen book. It has survived not
-            only five.
+            Hello! Welcome to my portfolio, here i have my project´s from when i
+            started my journey as a <span>Frontend Developer</span>. After
+            working for 18 years in the restaurant industry, I thought it was
+            time to change course and look for new challenges. So I applied for
+            a 24 week bootcamp and started my new adventure.
           </p>
           <a href="#contact" className="button button-primary">
             Let´s Talk

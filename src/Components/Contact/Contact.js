@@ -12,7 +12,7 @@ const Contact = () => {
     e.preventDefault()
 
     emailjs.sendForm(
-      'outlook',
+      'service_q1v2hgb',
       'template_lj4csfl',
       form.current,
       'w6PSHVyGDgrN7t3wiye1L',

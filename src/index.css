@@ -32,7 +32,9 @@ body{
   background:var(--color-bg);
   color:var(--color-white);
   line-height: 1.7;
-  background-color: pink;
+  /* background-image: url(/src/Assets/background.jpg);
+  background-attachment: fixed;
+  background-size:100% 100%; */
   min-height: 100vh;
 }
 .container{

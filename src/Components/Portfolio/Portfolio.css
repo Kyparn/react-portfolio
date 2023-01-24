@@ -8,7 +8,7 @@
     background: var(--color-bg-variant);
     padding:1.3rem;
     border-radius: 2rem;
-    border: 1px soild transparent;
+    border: 1px solid transparent;
     transition: var(--transition);
 }
 .portfolio_item:hover{
