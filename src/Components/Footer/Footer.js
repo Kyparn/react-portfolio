@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import './Footer.css'
 import { BsLinkedin, BsStackOverflow, BsGithub } from 'react-icons/bs'
 
