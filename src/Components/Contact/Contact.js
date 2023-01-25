@@ -2,8 +2,8 @@ import './Contact.css'
 import { HiOutlineMail } from 'react-icons/hi'
 import { FaFacebookMessenger } from 'react-icons/fa'
 import { ImWhatsapp } from 'react-icons/im'
-import { useRef } from 'react'
-import emailjs from 'emailjs-com'
+import React, { useRef } from 'react'
+import emailjs from '@emailjs/browser'
 
 const Contact = () => {
   const form = useRef()
@@ -15,7 +15,7 @@ const Contact = () => {
       'service_q1v2hgb',
       'template_lj4csfl',
       form.current,
-      'w6PSHVyGDgrN7t3wiye1L',
+      '2_h7ecixbd9z_CkCl',
     )
     e.target.reset()
   }
@@ -62,7 +62,7 @@ const Contact = () => {
             required
           />
           <input type="email" name="email" placeholder="Your Email" required />
-          <textarea name="Message" placeholder="Message" required rows="7" />
+          <textarea name="message" placeholder="Message" required rows="7" />
           <button type="submit" className="button button-primary">
             Send Message
           </button>
