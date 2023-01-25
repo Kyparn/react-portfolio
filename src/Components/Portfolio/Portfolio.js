@@ -37,6 +37,27 @@ const Portfolio = () => {
       github: 'https://github.com/Kyparn/project-guess-who',
       demo: 'https://sad-wing-a82c72.netlify.app',
     },
+    {
+      id: 6,
+      image: ['https://i.imgur.com/OfsT47V.png'],
+      title: 'Stranger Things',
+      github: 'https://github.com/Kyparn/project-redux-quiz',
+      demo: 'https://project-redux-quiz-stranger-things.netlify.app/',
+    },
+    {
+      id: 7,
+      image: ['https://i.imgur.com/TTEvFAr.png'],
+      title: 'Busniess Site',
+      github: 'https://github.com/Kyparn/project-business-site',
+      demo: 'https://cocktails-and-dream.netlify.app/',
+    },
+    {
+      id: 8,
+      image: ['https://i.imgur.com/5zUsHYl.png'],
+      title: 'Chatbot',
+      github: 'https://github.com/Kyparn/project-chatbot',
+      demo: 'https://botty-mcbot.netlify.app/',
+    },
   ]
   return (
     <section id="portfolio">
