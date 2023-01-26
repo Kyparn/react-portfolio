@@ -46,12 +46,12 @@ const Experience = () => {
                 <h4>React</h4>
               </div>
             </article>
-            <article className="experience_details">
+            {/* <article className="experience_details">
               <BsFillPatchCheckFill className="experience_details-icon" />
               <div>
                 <h4>Angular</h4>
               </div>
-            </article>
+            </article> */}
           </div>
         </div>
         <div className="experience_backend">
